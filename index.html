@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon shortcut" href="./css/img/new-user.png">
+    <title>Novo Cadastro</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <form>
+                <p>Cadastro de novo usuário</p>
+
+                <input type="text" name="user" id="user" placeholder="Novo nome de usuário">
+
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" name="sexo" id="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="feminino">
+                    <label for="masculino">Feminino</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Data de Nascimento</legend>
+                    <input type="date" name="data" id="data">
+                </fieldset>
+
+                <fieldset>
+                    <legend>E-mail</legend>
+                    <input type="email" name="email" id="email" placeholder="digite seu e-mail">
+                    <input type="email" name="email2" id="email2" placeholder="confirme seu e-mail">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Senha</legend>
+                    <input type="password" name="senha" id="senha" placeholder="digite sua senha">
+                    <input type="password" name="senha2" id="senha2" placeholder="confirme sua senha">
+                </fieldset>
+
+                <div class="botoes">
+                    <button type="submit" class="botao">Cadastrar</button>
+                    <button type="reset" class="botao">Cancelar</button>
+                </div>
+
+                <h4>Ou acesse usando</h4>
+
+                <div id=links>
+                    <a href="www.facebook.com.br" target='_blank'>
+                        <img class="icone" src="./css/img/facebook.png" alt='facebook'></a>
+                    <a href="www.google.com.br" target='_blank'>
+                        <img class="icone" src="./css/img/search.png" alt='google'></a>
+                    <a href="www.linkedin.com.br" target='_blank'>
+                        <img class="icone" src="./css/img/linkedin.png" alt='linkedin'></a>
+                    <a href="www.twitter.com.br" target='_blank'>
+                        <img class="icone" src="./css/img/twitter.png" alt='twitter'></a>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
